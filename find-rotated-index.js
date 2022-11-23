@@ -1,3 +1,5 @@
+// i needed to use the given solution to understand this, so i commented on it extensively.
+
 // A rotated array has just had it elements shifted counterclockise if you were looking at a circle with hollow slots for things to go in it might look like:
 ///      |
 ///    7 1 2

@@ -1,3 +1,5 @@
+// i needed to use the given solution to understand this, so i commented on it extensively.
+
 function findFloor(arr, num, lowIdx = 0, highIdx = arr.length - 1) {
   if (lowIdx > highIdx) return -1; // the floor does not exist here
   if (num >= arr[highIdx]) return arr[highIdx];

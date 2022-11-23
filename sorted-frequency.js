@@ -1,3 +1,5 @@
+// i needed to use the given solution to understand this, so i commented on it extensively.
+
 function sortedFrequency(arr, numToFind) {
   let firstIdx = findFirstOccurence(arr, numToFind);
   if (firstIdx == -1) return firstIdx;

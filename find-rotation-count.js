@@ -1,3 +1,5 @@
+// i needed to use the given solution to understand this, so i commented on it extensively.
+
 // the index at which the lowest number appears is the number of times the array was rotated
 function findRotationCount(arr, lowIdx = 0, highIdx = arr.length - 1) {
   if (highIdx < lowIdx) return 0;
